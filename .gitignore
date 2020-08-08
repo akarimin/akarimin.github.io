@@ -1,24 +1,53 @@
-# Compiled class file
-*.class
+# Ignore docs files
+_gh_pages
+_site
+_drafts
+.ruby-version
 .DS_Store
+.iml
 
-# Log file
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
 *.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
 
-# BlueJ files
-*.ctxt
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Komodo
+*.komodoproject
+.komodotools
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# grunt-html-validation
+validation-status.json
+validation-report.json
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Folders to ignore
+node_modules
+vendor
+.sass-cache
+.jekyll-metadata
+.jekyll-cache
+*.gem
+_zip
+/stats.json
+
+/assets/js/*hydejack-*
+/_sass/*/__*__/*
